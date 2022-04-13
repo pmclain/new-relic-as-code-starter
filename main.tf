@@ -15,7 +15,7 @@ data "newrelic_entity" "meal_planner" {
 }
 
 resource "newrelic_one_dashboard" "meal_planner" {
-  name = "Example"
+  name = "Example Dashboard"
 
   page {
     name = "Example Dashboard"
