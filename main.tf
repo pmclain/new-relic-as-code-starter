@@ -1,4 +1,12 @@
 terraform {
+  cloud {
+    organization = "pmclain"
+
+    workspaces {
+      name = "pmclain"
+    }
+  }
+
   required_version = "~> 1.0"
   required_providers {
     newrelic = {
