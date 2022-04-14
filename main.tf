@@ -23,10 +23,10 @@ data "newrelic_entity" "meal_planner" {
 }
 
 resource "newrelic_one_dashboard" "meal_planner" {
-  name = "Example Dashboard"
+  name = "Example"
 
   page {
-    name = "Example Dashboard"
+    name = "Example"
 
     widget_billboard {
       column = 1
